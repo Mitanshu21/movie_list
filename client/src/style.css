@@ -1,0 +1,36 @@
+.movies {
+    display: grid;
+    gap: 20px;
+    align-items: stretch;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto
+}
+
+.heading {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.main {
+    background-color: gray;
+    padding: 20px 0px;
+}
+
+.card {
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.image {
+    background-size: cover;
+}
+
+.moviedetails {
+    background-color: white;
+    padding: 20px;
+}
